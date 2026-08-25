@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0000000000000000000030 /* TextwayReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000020 /* TextwayReaderApp.swift */; };
+		1A0000000000000000000031 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000021 /* AppModel.swift */; };
+		1A0000000000000000000032 /* DocumentTextLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000022 /* DocumentTextLoader.swift */; };
+		1A0000000000000000000033 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000023 /* SpeechService.swift */; };
+		1A0000000000000000000034 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000024 /* RootView.swift */; };
+		1A0000000000000000000035 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000025 /* LibraryView.swift */; };
+		1A0000000000000000000036 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000026 /* ReaderView.swift */; };
+		1A0000000000000000000037 /* ReaderOptionsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000027 /* ReaderOptionsSheet.swift */; };
+		1A0000000000000000000038 /* ReaderCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1A0000000000000000000014 /* ReaderCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0000000000000000000015 /* TextwayReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextwayReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0000000000000000000020 /* TextwayReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextwayReaderApp.swift; sourceTree = "<group>"; };
+		1A0000000000000000000021 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		1A0000000000000000000022 /* DocumentTextLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTextLoader.swift; sourceTree = "<group>"; };
+		1A0000000000000000000023 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		1A0000000000000000000024 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/RootView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000025 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LibraryView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000026 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ReaderView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000027 /* ReaderOptionsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ReaderOptionsSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0000000000000000000041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000000000000000000038 /* ReaderCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0000000000000000000010 = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000011 /* TextwayReader */,
+				1A0000000000000000000012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000011 /* TextwayReader */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000020 /* TextwayReaderApp.swift */,
+				1A0000000000000000000021 /* AppModel.swift */,
+				1A0000000000000000000022 /* DocumentTextLoader.swift */,
+				1A0000000000000000000023 /* SpeechService.swift */,
+				1A0000000000000000000024 /* RootView.swift */,
+				1A0000000000000000000025 /* LibraryView.swift */,
+				1A0000000000000000000026 /* ReaderView.swift */,
+				1A0000000000000000000027 /* ReaderOptionsSheet.swift */,
+			);
+			path = TextwayReader;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000015 /* TextwayReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0000000000000000000002 /* TextwayReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0000000000000000000051 /* Build configuration list for PBXNativeTarget "TextwayReader" */;
+			buildPhases = (
+				1A0000000000000000000040 /* Sources */,
+				1A0000000000000000000041 /* Frameworks */,
+				1A0000000000000000000042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextwayReader;
+			packageProductDependencies = (
+				1A0000000000000000000014 /* ReaderCore */,
+			);
+			productName = TextwayReader;
+			productReference = 1A0000000000000000000015 /* TextwayReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2660;
+			};
+			buildConfigurationList = 1A0000000000000000000050 /* Build configuration list for PBXProject "TextwayReader" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0000000000000000000010;
+			packageReferences = (
+				1A0000000000000000000013 /* XCLocalSwiftPackageReference "ReaderCore" */,
+			);
+			productRefGroup = 1A0000000000000000000012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0000000000000000000002 /* TextwayReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0000000000000000000042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0000000000000000000040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000000000000000000030 /* TextwayReaderApp.swift in Sources */,
+				1A0000000000000000000031 /* AppModel.swift in Sources */,
+				1A0000000000000000000032 /* DocumentTextLoader.swift in Sources */,
+				1A0000000000000000000033 /* SpeechService.swift in Sources */,
+				1A0000000000000000000034 /* RootView.swift in Sources */,
+				1A0000000000000000000035 /* LibraryView.swift in Sources */,
+				1A0000000000000000000036 /* ReaderView.swift in Sources */,
+				1A0000000000000000000037 /* ReaderOptionsSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A0000000000000000000052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		1A0000000000000000000053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		1A0000000000000000000054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Textway Reader";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextwayReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1A0000000000000000000055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Textway Reader";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextwayReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0000000000000000000050 /* Build configuration list for PBXProject "TextwayReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000000000000000000052 /* Debug */,
+				1A0000000000000000000053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0000000000000000000051 /* Build configuration list for PBXNativeTarget "TextwayReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000000000000000000054 /* Debug */,
+				1A0000000000000000000055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1A0000000000000000000013 /* XCLocalSwiftPackageReference "ReaderCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ReaderCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A0000000000000000000014 /* ReaderCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A0000000000000000000013 /* XCLocalSwiftPackageReference "ReaderCore" */;
+			productName = ReaderCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A0000000000000000000001 /* Project object */;
+}

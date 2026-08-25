@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/primary.swiftdeps"
+  },
+  "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.derived/runner.swift": {
+    "dependencies": "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/runner.d",
+    "object": "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/runner.dia"
+  }
+}

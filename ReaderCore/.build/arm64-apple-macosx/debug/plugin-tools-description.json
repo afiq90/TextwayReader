@@ -1,0 +1,602 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.xctest/Contents/MacOS/ReaderCorePackageTests",
+      "packagePath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore",
+      "productName" : "ReaderCorePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ReaderCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/sources",
+      "importPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/Sources/ReaderCore/ReaderCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ReaderCore",
+      "moduleOutputPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules/ReaderCore.swiftmodule",
+      "objects" : [
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/ReaderCore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/include/ReaderCore-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "readercore"
+      ],
+      "outputFileMapPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/ReaderCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules/ReaderCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/Sources/ReaderCore/ReaderCore.swift"
+      ],
+      "tempsPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ReaderCorePackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/sources",
+      "importPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules/ReaderCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ReaderCorePackageTests",
+      "moduleOutputPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules/ReaderCorePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/include/ReaderCorePackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "readercore"
+      ],
+      "outputFileMapPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules/ReaderCorePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ReaderCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build/sources",
+      "importPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/Tests/ReaderCoreTests/ReaderCoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules/ReaderCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ReaderCoreTests",
+      "moduleOutputPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules/ReaderCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build/ReaderCoreTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "readercore"
+      ],
+      "outputFileMapPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build/ReaderCoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules/ReaderCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/Tests/ReaderCoreTests/ReaderCoreTests.swift"
+      ],
+      "tempsPath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ReaderCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ReaderCore",
+      "-package-name",
+      "readercore",
+      "-c",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/Sources/ReaderCore/ReaderCore.swift",
+      "-I",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/include/ReaderCore-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "readercore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ReaderCorePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ReaderCorePackageTests",
+      "-package-name",
+      "readercore",
+      "-c",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/include/ReaderCorePackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "readercore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ReaderCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ReaderCoreTests",
+      "-package-name",
+      "readercore",
+      "-c",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/Tests/ReaderCoreTests/ReaderCoreTests.swift",
+      "-I",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "readercore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ReaderCore" : [
+
+    ],
+    "ReaderCorePackageTests" : [
+      "ReaderCoreTests",
+      "ReaderCore"
+    ],
+    "ReaderCoreTests" : [
+      "ReaderCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/Sources/ReaderCore/ReaderCore.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/sources"
+    },
+    "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/sources"
+    },
+    "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCore.build/ReaderCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build/ReaderCoreTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCorePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/Tests/ReaderCoreTests/ReaderCoreTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/ReaderCoreTests.build/sources"
+    },
+    "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/afiq/Desktop/SaaS 2026/ios development/TextwayReader/ReaderCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -46,5 +46,4 @@ swift test
 ## Scope
 
 This is an original portfolio project. It has no accounts, cloud sync,
-subscriptions, server-side voices, OCR, or copied Speechify branding or source
-code.
+subscriptions, server-side voices, or OCR.

@@ -54,6 +54,7 @@ struct ReaderView: View {
                 PlayerBar(
                     isSpeaking: speech.isSpeaking,
                     isPaused: speech.isPaused,
+                    isInterrupted: speech.isInterrupted,
                     isFinished: hasReachedEnd,
                     progress: currentProgress,
                     togglePlayback: togglePlayback
@@ -75,6 +76,9 @@ struct ReaderView: View {
         }
         .onChange(of: speech.isSpeaking) { _, isSpeaking in
             if !isSpeaking { saveProgress() }
+        }
+        .onChange(of: speech.isInterrupted) { _, isInterrupted in
+            if isInterrupted { saveProgress() }
         }
         .onChange(of: scenePhase) { _, phase in
             if phase == .background { saveProgress() }
@@ -110,7 +114,9 @@ struct ReaderView: View {
         }
 
         do {
-            text = try DocumentTextLoader.load(from: url, kind: document.kind)
+            let loadedText = try await DocumentTextLoader.shared.load(from: url, kind: document.kind)
+            try Task.checkCancellation()
+            text = loadedText
             appModel.saveProgress(
                 offset: min(document.resumeOffset, text.utf16.count),
                 contentLength: text.utf16.count,
@@ -162,13 +168,14 @@ struct ReaderView: View {
 private struct PlayerBar: View {
     let isSpeaking: Bool
     let isPaused: Bool
+    let isInterrupted: Bool
     let isFinished: Bool
     let progress: Double?
     let togglePlayback: () -> Void
 
     private var actionTitle: String {
         if isSpeaking && !isPaused { return "Pause" }
-        if isPaused { return "Resume" }
+        if isInterrupted || isPaused { return "Resume" }
         if isFinished { return "Read again" }
         return "Play"
     }
@@ -179,6 +186,7 @@ private struct PlayerBar: View {
 
     private var statusTitle: String {
         if isSpeaking && !isPaused { return "Reading aloud" }
+        if isInterrupted { return "Interrupted" }
         if isPaused { return "Paused" }
         if isFinished { return "Finished" }
         if let progress, progress > 0 { return "Ready to continue" }
@@ -206,7 +214,9 @@ private struct PlayerBar: View {
             .accessibilityHint(
                 isSpeaking && !isPaused
                     ? "Pauses reading"
-                    : isPaused
+                    : isInterrupted
+                        ? "Resumes after the audio interruption"
+                        : isPaused
                         ? "Continues from the saved position"
                         : isFinished
                             ? "Starts reading again from the beginning"

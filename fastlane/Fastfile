@@ -1,0 +1,14 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Run package tests and an unsigned iOS Simulator build"
+  lane :build do
+    sh("swift test --package-path ReaderCore")
+    sh(
+      "xcodebuild -project TextwayReader.xcodeproj -scheme TextwayReader " \
+      "-destination 'generic/platform=iOS Simulator' -configuration Debug " \
+      "ARCHS=arm64 ONLY_ACTIVE_ARCH=YES CODE_SIGNING_ALLOWED=NO " \
+      "CODE_SIGNING_REQUIRED=NO build"
+    )
+  end
+end

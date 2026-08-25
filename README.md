@@ -13,6 +13,7 @@ import a document, listen to it, and continue later.
 - Choose playback speed from 0.75× to 2.00×
 - Save reading progress locally
 - Accessible playback states, labels, hints, and Dynamic Type support
+- Continue audio playback after supported interruptions while the process remains alive
 
 ## Technology
 
@@ -34,13 +35,28 @@ import a document, listen to it, and continue later.
 Scanned image-only PDFs are not supported in this MVP because OCR is out of
 scope.
 
-## Run tests
+## Reliability slice
+
+Document extraction runs behind a small actor so PDF/TXT parsing does not
+block the main actor. Speech playback owns the spoken `AVAudioSession`, pauses
+at a word boundary for interruptions, preserves the current offset, and only
+resumes when iOS supplies the resume hint. Background playback depends on the
+process remaining alive; app termination is not restored.
+
+CI intentionally runs only local package tests and an unsigned Simulator build.
+Signing and TestFlight delivery stay outside this workflow.
+
+## Verify locally
 
 From the project folder:
 
 ```bash
-cd ReaderCore
-swift test
+swift test --package-path ReaderCore
+fastlane build
+xcodebuild test -project TextwayReader.xcodeproj -scheme TextwayReader \
+  -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
+  -configuration Debug ARCHS=arm64 ONLY_ACTIVE_ARCH=YES \
+  -parallel-testing-enabled NO
 ```
 
 ## Scope

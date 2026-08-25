@@ -16,6 +16,8 @@
 		1A0000000000000000000036 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000026 /* ReaderView.swift */; };
 		1A0000000000000000000037 /* ReaderOptionsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000027 /* ReaderOptionsSheet.swift */; };
 		1A0000000000000000000038 /* ReaderCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1A0000000000000000000014 /* ReaderCore */; };
+		1A0000000000000000000060 /* SpeechServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000028 /* SpeechServiceTests.swift */; };
+		1A0000000000000000000061 /* DocumentTextLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000029 /* DocumentTextLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		1A0000000000000000000025 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LibraryView.swift; sourceTree = "<group>"; };
 		1A0000000000000000000026 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ReaderView.swift; sourceTree = "<group>"; };
 		1A0000000000000000000027 /* ReaderOptionsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ReaderOptionsSheet.swift; sourceTree = "<group>"; };
+		1A0000000000000000000017 /* TextwayReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextwayReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0000000000000000000028 /* SpeechServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechServiceTests.swift; sourceTree = "<group>"; };
+		1A0000000000000000000029 /* DocumentTextLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTextLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A0000000000000000000045 /* TextwayReaderTests Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				1A0000000000000000000011 /* TextwayReader */,
+				1A0000000000000000000016 /* TextwayReaderTests */,
 				1A0000000000000000000012 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,8 +82,18 @@
 			isa = PBXGroup;
 			children = (
 				1A0000000000000000000015 /* TextwayReader.app */,
+				1A0000000000000000000017 /* TextwayReaderTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000016 /* TextwayReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000028 /* SpeechServiceTests.swift */,
+				1A0000000000000000000029 /* DocumentTextLoaderTests.swift */,
+			);
+			path = TextwayReaderTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +118,24 @@
 			productName = TextwayReader;
 			productReference = 1A0000000000000000000015 /* TextwayReader.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1A0000000000000000000003 /* TextwayReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0000000000000000000059 /* Build configuration list for PBXNativeTarget "TextwayReaderTests" */;
+			buildPhases = (
+				1A0000000000000000000044 /* TextwayReaderTests Sources */,
+				1A0000000000000000000045 /* TextwayReaderTests Frameworks */,
+				1A0000000000000000000043 /* TextwayReaderTests Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0000000000000000000071 /* PBXTargetDependency */,
+			);
+			name = TextwayReaderTests;
+			productName = TextwayReaderTests;
+			productReference = 1A0000000000000000000017 /* TextwayReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -121,12 +162,20 @@
 			projectRoot = "";
 			targets = (
 				1A0000000000000000000002 /* TextwayReader */,
+				1A0000000000000000000003 /* TextwayReaderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1A0000000000000000000042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0000000000000000000043 /* TextwayReaderTests Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -151,6 +200,15 @@
 				1A0000000000000000000035 /* LibraryView.swift in Sources */,
 				1A0000000000000000000036 /* ReaderView.swift in Sources */,
 				1A0000000000000000000037 /* ReaderOptionsSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0000000000000000000044 /* TextwayReaderTests Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000000000000000000060 /* SpeechServiceTests.swift in Sources */,
+				1A0000000000000000000061 /* DocumentTextLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,9 +241,11 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Textway Reader";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIBackgroundModes = audio;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -209,6 +269,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Textway Reader";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIBackgroundModes = audio;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -220,6 +281,44 @@
 				SWIFT_VERSION = 6.0;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1A0000000000000000000056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextwayReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextwayReader.app/TextwayReader";
+			};
+			name = Debug;
+		};
+		1A0000000000000000000057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextwayReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextwayReader.app/TextwayReader";
 			};
 			name = Release;
 		};
@@ -244,7 +343,34 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1A0000000000000000000059 /* Build configuration list for PBXNativeTarget "TextwayReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000000000000000000056 /* Debug */,
+				1A0000000000000000000057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin PBXContainerItemProxy section */
+		1A0000000000000000000070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0000000000000000000002;
+			remoteInfo = TextwayReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		1A0000000000000000000071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0000000000000000000002 /* TextwayReader */;
+			targetProxy = 1A0000000000000000000070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCLocalSwiftPackageReference section */
 		1A0000000000000000000013 /* XCLocalSwiftPackageReference "ReaderCore" */ = {

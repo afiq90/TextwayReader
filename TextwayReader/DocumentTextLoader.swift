@@ -16,8 +16,10 @@ enum DocumentTextLoaderError: LocalizedError {
     }
 }
 
-enum DocumentTextLoader {
-    static func load(from url: URL, kind: DocumentKind) throws -> String {
+actor DocumentTextLoader {
+    static let shared = DocumentTextLoader()
+
+    func load(from url: URL, kind: DocumentKind) throws -> String {
         switch kind {
         case .text:
             guard let text = try? String(contentsOf: url, encoding: .utf8) else {
